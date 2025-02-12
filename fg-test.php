@@ -7,6 +7,8 @@
  * Author: FUNCKGROUP
  * Author URI: https://funckgroup.com
  * License: GPL2
+ * GitHub Plugin URI: https://github.com/FUNCKGROUP/fg-test-wp
+ * Primary Branch: main
  */
 
 if (!defined('ABSPATH')) {
