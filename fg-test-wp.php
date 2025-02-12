@@ -3,7 +3,7 @@
  * Plugin Name: FG Test Plugin
  * Plugin URI: https://www.funckgroup.com
  * Description: Ein einfaches Test-Plugin, das den Namen und die Version in der Admin-Leiste anzeigt.
- * Version: 1.2.1
+ * Version: 1.3.1
  * Author: FUNCKGROUP
  * Author URI: https://funckgroup.com
  * License: GPL2
@@ -19,7 +19,7 @@ if (!defined('ABSPATH')) {
 function fg_test_plugin_admin_bar($wp_admin_bar) {
     $args = array(
         'id'    => 'fg_test_plugin',
-        'title' => 'FG Test Plugin v1.2.1',
+        'title' => 'FG Test Plugin v1.3.1',
         'href'  => admin_url(),
         'meta'  => array(
             'class' => 'fg-test-plugin-class',
