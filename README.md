@@ -1,20 +1,23 @@
-# FG Test Plugin
+# FG Version Test
 
-FG Test Plugin is a deliberately small WordPress diagnostic plugin for testing plugin version changes and update workflows.
+FG Version Test is a deliberately minimal WordPress diagnostic package for testing update and version workflows.
 
-It displays the installed plugin version in the WordPress admin bar and has no settings, no database storage, no tracking, no external requests, and no dependency on FG Core.
+It displays the installed version in the WordPress admin bar and does not require FG Core.
 
 ## Update testing
 
-The plugin can be used as a predictable test target for normal WordPress.org update behavior and for development update mechanisms such as FG GitUpdate.
+The WordPress.org-facing slug is `fg-version-test`.
 
-Repository: https://github.com/FUNCKGROUP/fg-test-wp
+The development repository remains:
 
-## Requirements
+https://github.com/FUNCKGROUP/fg-test-wp
 
-- WordPress 6.0 or later
-- PHP 7.4 or later
+The header retains the GitHub metadata so update-management tooling such as FG GitUpdate can use the repository information independently of WordPress.org.
+
+## Privacy
+
+FG Version Test stores no data, performs no tracking, and makes no external requests.
 
 ## License
 
-GPL-2.0-or-later
+GPLv2 or later.
